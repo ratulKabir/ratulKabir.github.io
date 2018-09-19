@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Raihan Kabir Ratul</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/time4.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+
+  <!-- <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen"> -->
+  <link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="inc/colorbox.css" type="text/css" media="screen">
+  <script type="text/javascript" src="inc/colorbox.js"></script>
+  <script type="text/javascript" src="js/timeliner.js"></script>
+
+</head>
+
+
+<body>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+
+$('.head,.headgit,.headkag').hover(function(){
+     $(this).addClass('animated shake');
+  }, function() {
+    $(this).removeClass('animated shake');
+  });
+
+$.timeliner({});
+      $.timeliner({
+        timelineContainer: '#timeline-js',
+        timelineSectionMarker: '.milestone',
+        oneOpen: true,
+        startState: 'flat',
+        expandAllText: '+ Show All',
+        collapseAllText: '- Hide All'
+      });
+      // Colorbox Modal
+      $(".CBmodal").colorbox({inline:true, initialWidth:100, maxWidth:682, initialHeight:100, transition:"elastic",speed:750});
+
+});
+</script>
+
+
+<!-- Parallax portion -->
+<div class="pimg1">
+  <div class="intro">
+    <img src="img/pro.png" alt="Avatar" class="cen_pic"  data-toggle="tooltip" title="Raihan">
+    <h3 class="intronm">Raihan Kabir Ratul</h3>
+    <div class="iconhd">
+      <a href="mailto:raihankabirratul@gmail.com" target="_blank" data-toggle="tooltip" title="mail"><i class="head fa fa-envelope"></i></a>
+      <a href="https://github.com/ratulKabir" target="_blank" data-toggle="tooltip" title="github"><i class="headgit fa fa-github"></i></a>
+      <a href="https://www.kaggle.com/ratulkabir" target="_blank" data-toggle="tooltip" title="kaggle"><i class="headkag fa fa-kaggle"><img src="img/kaggle.png" alt="Avatar" class="img_kaggle_head"></i></a>
+      <a href="https://www.linkedin.com/in/raihan-kabir-ratul-86b025128/" target="_blank" data-toggle="tooltip" title="linkedin"><i class="head fa fa-linkedin"></i></a>
+      <a href="https://twitter.com/RatulKabir22" target="_blank" data-toggle="tooltip" title="twitter"><i class="head fa fa-twitter"></i></a>
+    </div>
+  </div>
+</div>
+<!-- Parallax portion end -->
+
+
+<!-- Education -->
+<div class="container-fluid">
+    <div class="container">
+   
+        <h1 id="timeline1"><center>Education</center></h1>
+        <hr class="soft"><br><br>
+
+  
+    <ul class="timeline1">
+        <li>
+           <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
+          
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><b>Bachelor of Science</b></h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><b>    2013-2016</b></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Computer Science & Engineering<br>
+                University of Chittagong<br>Chittagong, Bangladesh<br>
+                CGPA: 3.39 (out of 4.00)
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-education"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><b>Higher Secondary School Certificate</b></h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><b>    2010-2012</b></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Science<br>Ashuganj Sar Karkhana College<br>Ashuganj, Brahmanbaria, Bangladesh<br>GPA: 5.00 (out of 5.00)</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-education"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><b> Secondary School Certificate</b></h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i><b>    2008-2010</b></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Science<br>Zia Sar Karkhana College<br>Ashuganj, Brahmanbaria, Bangladesh<br>GPA: 5.00 (out of 5.00)</p>
+            </div>
+          </div>
+        </li>
+              
+    </ul>
+    <br><br>
+    <hr class="soft">
+</div>
+</div>
+<!-- Education end -->
+
+
+<div class="container">
+    <h1 class="project"><center>Certification</center></h1>
+<hr class="soft">
+    <div id="timeline" class="timeline-container">
+
+      <button class="timeline-toggle">+ expand all</button>
+
+      <br class="clear">
+
+      <div class="timeline-wrapper">
+        <h2 class="timeline-time"><span>Deep Learning Specialization</span></h2>
+        <dl class="timeline-series">
+          <dt id="19540517" class="timeline-event"><a>deeplearning.ai</a></dt>
+          <dd class="timeline-event-content" id="19540517EX">
+            <p><b>September 3, 2018</b></p>
+            <p>Five courses<br>Grade: 100%<br>Verify at: <a href="https://www.coursera.org/account/accomplishments/verify/TNDTNJ5SY8J7" target="_blank">coursera.org/verify/specialization/TAP6WAY7YDLT</a></p>
+              <br class="clear">
+          </dd><!-- /.timeline-event-content -->
+        </dl><!-- /.timeline-series -->
+      </div><!-- /.timeline-wrapper -->
+
+
+
+       <div class="timeline-wrapper">
+        <h2 class="timeline-time"><span>Mathematics for Machine Learning: Multivariate Calculus</span></h2>
+        <dl class="timeline-series">
+          <dt id="19540518" class="timeline-event"><a>Imperial College London</a></dt>
+          <dd class="timeline-event-content" id="19540518EX">
+            <p><b>August 27, 2018</b></p>
+            <p>
+              Grade: 100%<br>
+              Verify at: <a href="https://www.coursera.org/account/accomplishments/verify/3B5YRR268LZE" target="_blank">coursera.org/verify/3B5YRR268LZE</a></p>
+              <br class="clear">
+          </dd><!-- /.timeline-event-content -->
+        </dl><!-- /.timeline-series -->
+      </div><!-- /.timeline-wrapper -->
+
+
+
+<div class="timeline-wrapper">
+        <h2 class="timeline-time"><span>Machine Learning</span></h2>
+        <dl class="timeline-series">
+          <dt id="19540519" class="timeline-event"><a>Stanford University</a></dt>
+          <dd class="timeline-event-content" id="19540519EX">
+            <p><b>July 8, 2018</b></p>
+            <p>
+              Grade: 100%<br>
+              Verify at: <a href="https://www.coursera.org/account/accomplishments/verify/4P2B96WTPEYP" target="_blank">coursera.org/verify/4P2B96WTPEYP</a></p>
+              <br class="clear">
+          </dd><!-- /.timeline-event-content -->
+        </dl><!-- /.timeline-series -->
+      </div><!-- /.timeline-wrapper -->
+
+
+
+      <br class="clear">
+    </div><!-- /#timelineContainer -->
+
+    <br>
+    <br>
+    </div><!-- /.container -->
+  <hr class="soft">
+
+<!-- certification end -->
+
+
+<!-- Project -->
+<div class="container-fluid">
+    <div class="container">
+         <h1 class="project"><center>Project</center></h1>
+         <hr class="soft"><br>
+         <div class="projdiv">
+         <div id="timeline" class="timeline-container2">
+          <br class="clear">
+         <div class="timeline-wrapper2">
+         <h2 class="timeline-time"><span>Custom Object Detection using Darkflow</span></h2>
+         <blockquote>September 2018<br><br>
+            <small>
+              I have used darkflow(tensorflow translation of YOLO) object detection system to detect custom object. I made my own dataset of 267 images by taking photos using my camera phone and annotated them using labelImg.I trained the model for 9 hours.After 60 epochs and with a loss around 3.8 I stopped training. Because lack of time and resource my confidence factor is low for objects. However it can detect objects from image, video and webcam. Description in the link below.<br><b>Description link:</b> <a href="https://github.com/ratulKabir/Custom-Object-Detection-using-Darkflow" target="_blank"> https://github.com/ratulKabir/Custom-Object-Detection-using-Darkflow</a><br>Python 3.6, Tensorflow, Opencv
+             </small></blockquote>
+         </div>
+           <br class="clear">
+         </div><br><br>
+       </div>
+         </div>
+  </div>
+
+
+
+  <!-- Project end -->
+
+
+  <!-- Footer -->
+<footer>
+
+  <h3>Raihan Kabir Ratul</h3>
+  <div class="iconft">
+  <a href="mailto:raihankabirratul@gmail.com" target="_blank" data-toggle="tooltip" title="mail"><i class="foot fa fa-envelope"></i></a>
+  <a href="https://github.com/ratulKabir" target="_blank" data-toggle="tooltip" title="github"><i class="footgit fa fa-github"></i></a>
+  <a href="https://www.kaggle.com/ratulkabir" target="_blank" data-toggle="tooltip" title="kaggle"><i class="footkag fa fa-kaggle"><img src="img/kaggle.png" alt="Avatar" class="img_kaggle_foot"></i></a>
+  <a href="https://www.linkedin.com/in/raihan-kabir-ratul-86b025128/" target="_blank" data-toggle="tooltip" title="linkedin"><i class="foot fa fa-linkedin"></i></a>
+  <a href="https://twitter.com/RatulKabir22" target="_blank" data-toggle="tooltip" title="twitter"><i class="foot fa fa-twitter"></i></a>
+  </div><br>
+  <p>Computer Science & Engineering at University of Chittagong<br>
+  Chittagong,Bangladesh</p><br>
+  <p><small>2018 All rights reserved</small></p>
+</footer>
+
+  
+</body>
+</html>
