@@ -16,6 +16,7 @@
   margin: 20px auto;
   width: 900px;
   font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
 .timeline-toggle {
   background: #5cb85c;
@@ -86,7 +87,7 @@
 
 .projdiv{
   margin: 0 auto;
-  width: 80%px;
+  width: 80%;
 }
 
 .timeline-series {
